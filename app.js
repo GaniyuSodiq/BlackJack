@@ -14,9 +14,9 @@ function startGame() {
         messageEl.textContent = "You've got BlackJack!"
         hasBlackjack = true
     } else {
-        messageEl.textContent ="You're out of the game!"
+        message ="You're out of the game!"
         isAlive = false
     }
-    
+    messageEl.textContent = message
 }
 
