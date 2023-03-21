@@ -5,21 +5,18 @@ let hasBlackjack = false
 let isAlive = true
 let message 
 
-console.log(sum)
+let messageEl = document.getElementById("message-el")
 
-function startgame() {
-
+function startGame() {
     if (sum <= 20) {
-        message = "Do you want to draw a new card?"
+        messageEl.textContent = "Do you want to draw a new card?"
     } else if (sum === 21) {
-        message = "You've got BlackJack!"
+        messageEl.textContent = "You've got BlackJack!"
         hasBlackjack = true
     } else {
-        message ="You're out of the game!"
+        messageEl.textContent ="You're out of the game!"
         isAlive = false
     }
     
-    console.log(message)
-
 }
 
