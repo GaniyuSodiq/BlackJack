@@ -1,0 +1,26 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: darkgreen;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+#startgame-btn{
+    color: green;
+    background-color: goldenrod;
+    padding: 10px 40px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
